@@ -1,0 +1,9 @@
+body{
+    font-family: 'EB Garamond', serif !important;
+}
+
+.banner-img{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
