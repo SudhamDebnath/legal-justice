@@ -58,7 +58,35 @@
             </li>
           </ul>
 
-          <button class="btn btn-primary fw-semibold" type="submit">Free Consultation</button>
+
+
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Free Consultation
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Hello Sir</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  How Can i Help You?
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
 
         </div>
       </div>
@@ -240,7 +268,7 @@
 
       <div class="text-center my-5">
         <h1>Frequently Asked Any Questions</h1>
-        <p class="py-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+        <p class="py-3">There are many variations of passages of Lorem <br> Ipsum available, but the majority have suffered
           alteration in some form, by injected humour.</p>
       </div>
 
@@ -371,7 +399,7 @@
 
 
       <div class="row">
-      
+
         <div class="col-md-6">
 
           <div class="card text-center row-md-3 border-top-0 border-start-0 rounded-0 bg-body-secondary">
@@ -384,7 +412,7 @@
             </div>
           </div>
 
-  
+
 
         </div>
 
@@ -409,7 +437,59 @@
 
     </section>
 
+    <!-- My Added Section -->
+
+    <section class="container">
+
+      <div class="row my-5">
+
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+
+          <div class="login">
+
+            <h1 class="text-center">Please Log-in !</h1>
+
+            <form class="needs-validation">
+              <div class="form-group was-validated">
+                <label class="form-label" for="email">Email address</label>
+                <input class="form-control" type="email" id="email" required>
+                <div class="invalid-feedback">
+                  Please enter your email address
+                </div>
+              </div>
+              <div class="form-group was-validated">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-control" type="password" id="password" required>
+                <div class="invalid-feedback">
+                  Please enter your password
+                </div>
+              </div>
+              <div class="form-group form-check">
+                <input class="form-check-input" type="checkbox" id="check">
+                <label class="form-check-label" for="check">Remember me</label>
+              </div>
+              <input class="btn btn-primary w-100" type="submit" value="SIGN IN">
+            </form>
+
+          </div>
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+      </div>
+
+
+
+    </section>
+
   </main>
+
+
+
 
 
   <!-- Footer Section -->
@@ -417,44 +497,47 @@
   <footer class="mt-5 bg-black">
 
     <div class="container py-5 px-5">
-        <div class="row">
-            <div class="col-md-3">
-                <img src="/images/logo.png" alt="">
-                <p class="text-white my-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            </div>
-            <div class="col-md-3 text-white">
-                <h6 class="fw-bold">Useful Links</h6>
-                <p><a class="text-decoration-none text-white" href="">Home</a></p>
-                <p><a class="text-decoration-none text-white" href="">About Us</a></p>
-                <p><a class="text-decoration-none text-white" href="">Cases</a></p>
-                <p><a class="text-decoration-none text-white" href="">Blog</a></p>
-                <p><a class="text-decoration-none text-white" href="">Contact Us</a></p>
-            </div>
-            <div class="col-md-3 text-white">
-                <h6 class="fw-bold">Contact Now</h6>
-                <p>555 4th 5t NW, Washington <br>
-                  DC 20530, United States</p>
-
-                  <p>+88 01750 000 000 <br> +88 01750 000 000</p>
-                  
-                  <p>info@gmail.com <br>info@gmail.com</p>
-                  
-                
-            </div>
-            <div class="col-md-3 text-white">
-                <h6 class="fw-bold">Subscribe</h6>
-
-                <p>Subscribe for our latest & <br> Articles. We Won't Give You Spam Mails</p>
-
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-primary rounded py-2" type="button" id="button-addon2"> <i class="fa-solid fa-paper-plane"></i></button>
-                  </div>
-            </div>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="/images/logo.png" alt="">
+          <p class="text-white my-4">There are many variations of passages <br> of Lorem Ipsum available, but the
+            majority have suffered alteration in some form, by injected humour.</p>
         </div>
+        <div class="col-md-3 text-white px-5">
+          <h6 class="fw-bold">Useful Links</h6>
+          <a class="text-decoration-none text-white" href="">Home</a> <br>
+          <a class="text-decoration-none text-white" href="">About Us</a> <br>
+          <a class="text-decoration-none text-white" href="">Cases</a><br>
+          <a class="text-decoration-none text-white" href="">Blog</a><br>
+          <a class="text-decoration-none text-white" href="">Contact Us</a>
+        </div>
+        <div class="col-md-3 text-white">
+          <h6 class="fw-bold">Contact Now</h6>
+          <p>555 4th 5t NW, Washington <br>
+            DC 20530, United States</p>
+
+          <p>+88 01750 000 000 <br> +88 01750 000 000</p>
+
+          <p>info@gmail.com <br>info@gmail.com</p>
+
+
+        </div>
+        <div class="col-md-3 text-white">
+          <h6 class="fw-bold">Subscribe</h6>
+
+          <p>Subscribe for our latest & <br> Articles. We Won't Give You Spam Mails</p>
+
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <button class="btn btn-primary rounded py-2" type="button" id="button-addon2"> <i
+                class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
     </div>
 
-</footer>
+  </footer>
 
   <!-- CDN JS -->
   <script src="/js/bootstrap.js"></script>
